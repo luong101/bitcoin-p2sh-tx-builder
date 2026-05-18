@@ -1,6 +1,6 @@
 # Bitcoin P2SH Multisig Transaction Engine
 
-AA small Python utility that demonstrates creating, funding, and spending from a 2-of-2 P2SH (multisignature) Bitcoin wallet on Testnet. The code in this repository builds raw transactions, estimates fees using a dummy transaction to compute virtual bytes, signs inputs with two private keys to satisfy OP_CHECKMULTISIG, and broadcasts serialized transactions via the Mempool.space Testnet4 API.
+A small Python utility that demonstrates creating, funding, and spending from a 2-of-2 P2SH (multisignature) Bitcoin wallet on Testnet. The code in this repository builds raw transactions, estimates fees using a dummy transaction to compute virtual bytes, signs inputs with two private keys to satisfy OP_CHECKMULTISIG, and broadcasts serialized transactions via the Mempool.space Testnet4 API.
 
 ## Features
 - P2SH Address Generation: create a 2-of-2 redeem script and P2SH address.
